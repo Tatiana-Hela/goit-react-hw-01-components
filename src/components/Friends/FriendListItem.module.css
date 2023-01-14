@@ -9,20 +9,20 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.online {
+
+.check {
   display: block;
   margin-left: 10px;
   width: 16px;
   height: 16px;
   border-radius: 50%;
+}
+.online {
+  composes: check;
   background-color: green;
 }
 .false {
-  display: block;
-  margin-left: 8px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
+  composes: check;
   background-color: red;
 }
 .name {
